@@ -1,0 +1,24 @@
+------------------------------
+Raw Metrics
+------------------------------
+
+data/after-refactoring.py    LOC: 981    LLOC: 804    SLOC: 840    Comments: 96    Single comments: 93    Multi: 0    Blank: 48    - Comment Stats        (C % L): 10%        (C % S): 11%        (C + M % L): 10%
+
+------------------------------
+Cyclomatic Complexity
+------------------------------
+
+data/after-refactoring.py    F 724:0 _init_f2f_cherry_pick_operations - E    F 212:0 _complete_cherry_pick - D    F 905:0 _parse_arguments - D    F 429:0 strip_commit_message - C    F 559:0 run_filter_branch - C    F 810:0 _get_intermediate_folder_name - C    F 166:0 _prep_new_cherry_pick - B    F 651:0 git_is_dir - B    F 635:0 git_is_file - B    M 92:4 F2fCherryPickCommand.run_command - B    F 382:0 get_common_folder_name - A    F 398:0 get_unique_branch_name - A    F 468:0 _perform_cherry_pick - A    F 492:0 _prepare_source_branch - A    F 597:0 find_bash_windows - A    F 677:0 _save_f2f_cherry_pick_state - A    F 872:0 _optimize_f2f_cherry_pick_operations - A    F 892:0 _list_templates - A    F 128:0 _resume_cherry_pick - A    F 153:0 _abort_cherry_pick - A    F 414:0 get_commit_list - A    F 529:0 remove_all_directories_except_included - A    F 705:0 _restore_f2f_cherry_pick_state - A    F 864:0 _check_for_name_collision - A    F 884:0 _path_in_changed_files - A    C 44:0 F2fCherryPickCommand - A    F 408:0 cherry_pick_operations_to_include_folder_list - A    F 670:0 git_path_exists - A    F 118:0 _start_new_cherry_pick - A    F 362:0 _post_cherry_pick_processing - A    F 511:0 _prepare_destination_branch - A    F 520:0 _finalize_destination_branch - A    F 541:0 remove_single_directory - A    F 550:0 rename_directories - A    F 613:0 split_path - A    F 625:0 git_ls_tree - A    F 376:0 inside_directory - A    F 425:0 get_squash_commit_message_list - A    M 45:4 F2fCherryPickCommand.__init__ - A    M 48:4 F2fCherryPickCommand.get_metadata - A40 blocks (classes, functions, methods) analyzed.Average complexity: B (6.375)
+
+------------------------------
+Maintainability Index
+------------------------------
+
+data/after-refactoring.py - C
+
+------------------------------
+Halstead Complexity
+------------------------------
+
+data/after-refactoring.py:    h1: 15    h2: 154    N1: 125    N2: 214    vocabulary: 169    length: 339    calculated_length: 1177.6884862011427    volume: 2508.8981288996606    difficulty: 10.422077922077921    effort: 26147.93179794776    time: 1452.6628776637644    bugs: 0.8362993762998868
+

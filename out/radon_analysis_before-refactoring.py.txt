@@ -1,0 +1,24 @@
+------------------------------
+Raw Metrics
+------------------------------
+
+data/before-refactoring.py    LOC: 935    LLOC: 770    SLOC: 802    Comments: 98    Single comments: 94    Multi: 0    Blank: 39    - Comment Stats        (C % L): 10%        (C % S): 12%        (C + M % L): 10%
+
+------------------------------
+Cyclomatic Complexity
+------------------------------
+
+data/before-refactoring.py    M 88:4 F2fCherryPickCommand.run_command - F    F 678:0 _init_f2f_cherry_pick_operations - E    F 859:0 _parse_arguments - D    C 40:0 F2fCherryPickCommand - C    F 383:0 strip_commit_message - C    F 513:0 run_filter_branch - C    F 764:0 _get_intermediate_folder_name - C    F 605:0 git_is_dir - B    F 589:0 git_is_file - B    F 336:0 get_common_folder_name - A    F 352:0 get_unique_branch_name - A    F 422:0 _perform_cherry_pick - A    F 446:0 _prepare_source_branch - A    F 551:0 find_bash_windows - A    F 631:0 _save_f2f_cherry_pick_state - A    F 826:0 _optimize_f2f_cherry_pick_operations - A    F 846:0 _list_templates - A    F 368:0 get_commit_list - A    F 483:0 remove_all_directories_except_included - A    F 659:0 _restore_f2f_cherry_pick_state - A    F 818:0 _check_for_name_collision - A    F 838:0 _path_in_changed_files - A    F 362:0 cherry_pick_operations_to_include_folder_list - A    F 624:0 git_path_exists - A    F 316:0 _post_cherry_pick_processing - A    F 465:0 _prepare_destination_branch - A    F 474:0 _finalize_destination_branch - A    F 495:0 remove_single_directory - A    F 504:0 rename_directories - A    F 567:0 split_path - A    F 579:0 git_ls_tree - A    F 330:0 inside_directory - A    F 379:0 get_squash_commit_message_list - A    M 41:4 F2fCherryPickCommand.__init__ - A    M 44:4 F2fCherryPickCommand.get_metadata - A35 blocks (classes, functions, methods) analyzed.Average complexity: B (7.542857142857143)
+
+------------------------------
+Maintainability Index
+------------------------------
+
+data/before-refactoring.py - C
+
+------------------------------
+Halstead Complexity
+------------------------------
+
+data/before-refactoring.py:    h1: 15    h2: 145    N1: 126    N2: 215    vocabulary: 160    length: 341    calculated_length: 1099.6901769862932    volume: 2496.7774803565903    difficulty: 11.120689655172415    effort: 27765.88749706898    time: 1542.5493053927212    bugs: 0.8322591601188635
+
